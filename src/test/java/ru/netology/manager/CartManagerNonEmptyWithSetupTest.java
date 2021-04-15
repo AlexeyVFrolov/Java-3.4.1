@@ -7,7 +7,7 @@ import ru.netology.manager.CartManager;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class CartManagerTestNonEmptyWithSetup {
+public class CartManagerNonEmptyWithSetupTest {
   private CartManager manager = new CartManager();
   private PurchaseItem first = new PurchaseItem(1, 1, "first", 1, 1);
   private PurchaseItem second = new PurchaseItem(2, 2, "second", 1, 1);

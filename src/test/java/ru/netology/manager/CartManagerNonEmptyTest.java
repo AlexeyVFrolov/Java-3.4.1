@@ -6,7 +6,7 @@ import ru.netology.manager.CartManager;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CartManagerTestNonEmpty {
+public class CartManagerNonEmptyTest {
   @Test
   public void shouldRemoveIfExists() {
     CartManager manager = new CartManager();

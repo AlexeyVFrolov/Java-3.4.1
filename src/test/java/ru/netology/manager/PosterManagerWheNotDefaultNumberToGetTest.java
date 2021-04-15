@@ -6,7 +6,7 @@ import ru.netology.domain.Poster;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PosterManagerTestWheNotDefaultNumberToGet {
+public class PosterManagerWheNotDefaultNumberToGetTest {
 
     PosterManager posterManager = new PosterManager(5);
     Poster firstPoster = new Poster(1, "Бладшот", "", "боевик");

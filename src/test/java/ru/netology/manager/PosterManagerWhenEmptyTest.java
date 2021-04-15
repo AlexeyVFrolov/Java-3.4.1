@@ -5,7 +5,7 @@ import ru.netology.domain.Poster;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class PosterManagerTestWhenEmpty {
+public class PosterManagerWhenEmptyTest {
 
     @Test
     public void shouldAddPoster() {
